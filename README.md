@@ -41,7 +41,7 @@ This is the project of Full Stack NanoDegree. This project includes 3 tables
 	`psql -d news`
 and then run the SQL statement as mentioned below.
 
-    * SQL query for creating view: CREATE VIEW percent_error_view:
+- SQL query for creating view: CREATE VIEW percent_error_view:
 ```
 CREATE VIEW percent_error_view AS SELECT date(time),
 round(100.00*sum(CASE WHEN status = '404 NOT FOUND'
